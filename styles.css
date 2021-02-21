@@ -87,7 +87,7 @@ html, body {
 .testimonial p+p {
   opacity: 0.7;
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
 }
 
 .card-white {
@@ -101,6 +101,10 @@ html, body {
 }
 
 /* Testimonial card's positions */
+
+.testimonial:first-child .person img, .testimonial:last-child .person img {
+  border: 2px solid #A775F1;
+}
 
 .testimonial:nth-child(1) {
   grid-row: 1 / 2;
